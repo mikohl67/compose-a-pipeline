@@ -1,0 +1,10 @@
+version: '2'
+services:
+  clone-frontend:
+    build: clone-frontend
+  clone-backend:
+    build: clone-backend
+  clone-frontend:
+    build: build-backend
+  clone-frontend:
+    build: build-backend
